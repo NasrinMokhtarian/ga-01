@@ -4,8 +4,15 @@ jobs :
      first-job:
         runs-on: ubuntu-latest
         steps : 
-            - name : Print Hello
-              run : echo "hello word"
-
-            - name : Print Goodbye
-              run : echo "goodbye"
+            - name: Print Hello
+              run: echo "hello word"
+     second-job:
+        runs-on: ubuntu-latest
+        steps : 
+            - name: Print Goodbye
+              run: echo "goodbye"
+              - name: I Will Win.
+                run: exit 1
+                - name: Print "Nothing to Say"
+                  run: echo "Nothing to Say"
+          
