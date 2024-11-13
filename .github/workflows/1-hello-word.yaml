@@ -11,8 +11,8 @@ jobs :
         steps : 
             - name: Print Goodbye
               run: echo "goodbye"
-              - name: I Will Win.
-                run: exit 1
-                - name: Print "Nothing to Say"
-                  run: echo "Nothing to Say"
+            - name: I Will Winner.
+              run: exit 0
+            - name: Print "Nothing to Say"
+              run: echo "Nothing to Say"
           
